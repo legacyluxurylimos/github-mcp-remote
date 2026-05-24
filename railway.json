@@ -4,8 +4,6 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "startCommand": "npx -y @supercorp-ai/supergateway --stdio 'npx -y @modelcontextprotocol/server-github' --port 3000",
-    "healthcheckPath": "/",
     "restartPolicyType": "ON_FAILURE"
   }
 }
